@@ -37,5 +37,6 @@ Features of the Spots website include the follwoing below.
 - Clone the repository.
 
 - This webpage is deployed to Github Pages
+  [Deployment Link] - https://romellotech.github.io/se_project_spots/
 
 - Start uploading images, viewing galleries, and interacting with others on Spots.
