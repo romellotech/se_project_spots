@@ -31,3 +31,11 @@ Features of the Spots website include the follwoing below.
 - Git: Version control to track changes and collaborate efficiently.
 
 - Figma: For designing and prototyping the user interface for development.
+
+###### Deployment & How to Use
+
+- Clone the repository.
+
+- This webpage is deployed to Github Pages
+
+- Start uploading images, viewing galleries, and interacting with others on Spots.
