@@ -63,10 +63,8 @@
 }
 
 .profile__edit-btn:hover {
-  color: #212121;
   cursor: pointer;
-  gap: 8px;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .profile__add-btn {
