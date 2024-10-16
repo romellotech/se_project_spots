@@ -22,6 +22,10 @@ Features of the Spots website include the follwoing below.
 
 - [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
 
+#### Video of my project
+
+-https://drive.google.com/file/d/1hunKT-RrhKAnu5VoxBfP9Ip-Jwkwqdgc/view?usp=sharing
+
 ###### Technologies Used
 
 - HTML5 and CSS3: For building the structure and styling the interface.
