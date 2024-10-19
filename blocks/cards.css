@@ -23,3 +23,9 @@
     grid-template-columns: repeat(auto-fit, 288px);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cards {
+    margin-bottom: 12px;
+  }
+}
