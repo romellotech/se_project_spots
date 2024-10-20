@@ -147,3 +147,10 @@
     padding: 18px 32px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .profile__edit-btn {
+    justify-content: center;
+    margin: auto;
+  }
+}
