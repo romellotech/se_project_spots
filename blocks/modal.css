@@ -36,6 +36,12 @@
   opacity: 40%;
   border: none;
   background: #fff;
+  cursor: pointer;
+}
+
+.modal__close-btn:hover {
+  color: #212121;
+  opacity: 1;
 }
 
 .modal__title {
@@ -59,7 +65,6 @@
 }
 
 .modal__input {
-  height: 52px;
   padding: 16px 12px;
   border-radius: 8px;
   gap: 10px;
@@ -73,6 +78,7 @@
 
 .modal__input:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
 .modal__submit-btn {
@@ -87,6 +93,7 @@
   font-size: 16px;
   line-height: 16px;
   color: #fcf5e5;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
