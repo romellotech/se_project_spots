@@ -27,6 +27,38 @@
   border-radius: 8px;
 }
 
+.modal__container_type_preview {
+  padding: 0;
+  width: unset;
+  background: transparent;
+}
+
+.modal__image {
+  width: 100%;
+  object-fit: cover;
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.modal__caption {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: #ffff;
+  background: #212121;
+  border-radius: 8px;
+  width: 119px;
+  height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 8px;
+  width: fit-content;
+}
+
 .modal__close-btn {
   position: absolute;
   top: 32px;
@@ -37,6 +69,14 @@
   border: none;
   background: #fff;
   cursor: pointer;
+}
+
+.modal__close-btn_preview {
+  background-image: url("../images/Close_Icon_preview.svg");
+  top: 0;
+  right: -52.5px;
+  opacity: 100%;
+  background-color: transparent;
 }
 
 .modal__close-btn:hover {
@@ -125,5 +165,39 @@
   }
 
   .modal__input {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .modal__container_type_preview {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    width: unset;
+  }
+
+  .modal__caption {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .modal__image {
+    width: 100%;
+    background-color: transparent;
+    max-width: 288vw;
+    max-height: 427.57vh;
+    object-fit: cover;
+    max-width: unset;
+    max-height: unset;
+  }
+
+  .modal__close-btn_type_preview {
+    top: 16px;
+    right: 16px;
   }
 }
