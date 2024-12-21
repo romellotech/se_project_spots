@@ -11,6 +11,7 @@
   justify-content: center;
   padding: 0 20px;
   visibility: hidden;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
 }
 
 .modal_opened {
@@ -163,9 +164,6 @@
   .modal__submit-btn {
     width: 100%;
   }
-
-  .modal__input {
-  }
 }
 
 @media screen and (max-width: 320px) {
@@ -194,6 +192,11 @@
     object-fit: cover;
     max-width: unset;
     max-height: unset;
+    width: 288px;
+    height: 192px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 206px;
   }
 
   .modal__close-btn_type_preview {
