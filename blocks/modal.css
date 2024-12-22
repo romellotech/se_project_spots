@@ -195,12 +195,14 @@
     width: 288px;
     height: 192px;
     border-radius: 4px;
-    padding-left: 16px;
-    padding-top: 206px;
   }
 
   .modal__close-btn_type_preview {
     top: 16px;
     right: 16px;
+  }
+
+  .modal__close-btn_preview {
+    top: -30px;
   }
 }
