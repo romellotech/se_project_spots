@@ -99,6 +99,7 @@
     height: 18px;
     border: 2px;
     padding-right: 16px;
+    background-size: contain;
   }
 }
 
