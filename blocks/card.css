@@ -70,6 +70,7 @@
 
 .card__delete-btn:hover {
   background-image: url("../images/trash_icon_hover.svg");
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
