@@ -155,8 +155,10 @@
   }
 
   .modal__close-btn {
-    top: -40px;
     right: 12px;
+    top: 12px;
+    bottom: 40px;
+    position: absolute;
   }
 
   .modal__label {
@@ -198,7 +200,7 @@
     border-radius: 4px;
   }
 
-  .modal__close-btn_type_preview {
+  .modal__close-btn_preview {
     top: 16px;
     right: 16px;
   }
