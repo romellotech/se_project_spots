@@ -221,3 +221,10 @@
     right: 16px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .modal__close-btn_preview {
+    top: -42px;
+    right: 0px;
+  }
+}

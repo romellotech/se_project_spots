@@ -39,14 +39,22 @@ const hasInvalidInput = (inputList) => {
   });
 };
 
+const disableButton = (buttonElement, config) => {
+  buttonElement.classList.add(config.inactiveButtonClass);
+  console.log(buttonElement);
+  buttonElement.disbaled = true;
+};
+
+const enableButton = (buttonElement, config) => {
+  buttonElement.disabled = false;
+  buttonElement.classList.remove(config.inactiveButtonClass);
+};
+
 const toggleButtonState = (inputList, buttonElement, config) => {
   if (hasInvalidInput(inputList)) {
-    buttonElement.classList.add(config.inactiveButtonClass);
-    console.log(buttonElement);
-    buttonElement.disbaled = true;
+    disableButton(buttonElement, config);
   } else {
-    buttonElement.disabled = false;
-    buttonElement.classList.remove(config.inactiveButtonClass);
+    enableButton(buttonElement, config);
   }
 };
 
@@ -77,3 +85,9 @@ const enableValidation = (config) => {
 };
 
 enableValidation(settings);
+
+const resetValidation = (formElement, inputList, config) => {
+  inputList.forEach((inputElement) => {
+    hideInputError(formElement, inputElement, config);
+  });
+};
